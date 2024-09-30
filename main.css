@@ -1,0 +1,23 @@
+canvas {
+  background-color: rgb(23, 143, 235);
+}
+body {
+  margin: 0;
+}
+@keyframes move {
+  0% {
+    position: absolute;
+    left: 50px;
+    right: 50px;
+  }
+  20% {
+    position: absolute;
+    left: 100px;
+    right: 100px;
+  }
+  100% {
+    position: absolute;
+    left: 200px;
+    right: 200xp;
+  }
+}
